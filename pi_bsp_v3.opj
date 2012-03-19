@@ -1,0 +1,113 @@
+(ExpressProject "Design10"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\pi_bsp_v3.olb"
+        (Type "Schematic Library"))
+      (File "e:\orcad_sch\lib\socket.olb"
+        (Type "Schematic Library"))
+      (File "E:\ORCAD_SCH\LIB\SAMPLE.OLB"
+        (Type "Schematic Library"))
+      (File "e:\orcad_sch\lib\resistor.olb"
+        (Type "Schematic Library"))
+      (File "c:\!!!sort\самостоятельная работа №2\lab2.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "C:\!!!Sort\design10.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "C:\!!!SORT\DESIGN10.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "TRUE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File "c:\!!!sort\design10.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (ATmega128
+      (FullPartName "ATmega128.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (IDC-20M
+      (FullPartName "IDC-20M.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "19"))
+    (IDC-10M
+      (FullPartName "IDC-10M.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "3")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\!!!Sort\design10.dsn")
+      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\pi_bsp_v3.olb")
+      (Path "Design Resources" "Library" "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (Path "Outputs")
+      (Select "Design Resources" "Library" ".\pi_bsp_v3.olb" "IDC-20M"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 271 0 883"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 176 627 176 564")
+        (Scroll "170 467")
+        (Zoom "144")
+        (Occurrence "/"))
+      (Path "C:\!!!SORT\DESIGN10.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
