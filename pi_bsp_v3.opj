@@ -72,8 +72,28 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CC1206KKX7R6BB106
+      (FullPartName "CC1206KKX7R6BB106.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
     (RC1206JR-07100RL
       (FullPartName "RC1206JR-07100RL.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (CC0805KRX7R9BB104
+      (FullPartName "CC0805KRX7R9BB104.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (CC0805JRNP00BN220
+      (FullPartName "CC0805JRNP00BN220.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (3ESH9-15
+      (FullPartName "3ESH9-15.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (P6SMB18CA
+      (FullPartName "P6SMB18CA.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0"))
     (ADM3251EARWZ
@@ -82,14 +102,6 @@
       (DeviceIndex "0"))
     (IDTQS3257Q
       (FullPartName "IDTQS3257Q.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (CC0805KRX7R9BB104
-      (FullPartName "CC0805KRX7R9BB104.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (CC1206KKX7R6BB106
-      (FullPartName "CC1206KKX7R6BB106.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0"))
     (LQH43CN100K03L
@@ -136,10 +148,6 @@
       (FullPartName "KX-3H_16MHz.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0"))
-    (CC0805JRNP00BN220
-      (FullPartName "CC0805JRNP00BN220.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
     (RC1206JR-071K0L
       (FullPartName "RC1206JR-071K0L.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
@@ -173,23 +181,23 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\pi_bsp_v3.olb")
+      (Path "Design Resources" "Library" "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (Path "Outputs")
       (Select "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 259 0 883"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 362 0 883"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 176 627 176 564")
-        (Scroll "146 0")
-        (Zoom "74")
+        (Scroll "799 52")
+        (Zoom "148")
         (Occurrence "/"))
       (Path "C:\!!!SORT\DESIGN10.DSN")
       (Schematic "SCHEMATIC1")
