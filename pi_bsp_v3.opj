@@ -12,6 +12,8 @@
       (File "e:\orcad_sch\lib\resistor.olb"
         (Type "Schematic Library"))
       (File "E:\ORCAD_SCH\LIB\CAPACITOR.OLB"
+        (Type "Schematic Library"))
+      (File "E:\ORCAD_SCH\LIB\MY_TITLE.OLB"
         (Type "Schematic Library")))
     (NoModify)
     (File "C:\!!!Sort\design10.dsn"
@@ -22,7 +24,7 @@
     (DOCKING_POSITION "59420")
     (DRC_Scope "0")
     (DRC_Action "0")
-    (DRC_Create_Warnings "FALSE")
+    (DRC_Create_Warnings "TRUE")
     (DRC_View_Output "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
@@ -31,9 +33,9 @@
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
     (DRC_SDT_Compatibility "FALSE")
-    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
     (DRC_Check_Unconnected_Nets "TRUE")
-    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
     (DRC_Report_Netnames "FALSE")
     (DRC_Check_Single_Node_Nets "TRUE")
     (DRC_Check_No_Driving_Source "TRUE")
@@ -49,7 +51,7 @@
     (DRC_Check_Power_Ground_Short "TRUE")
     (DRC_Identical_References "TRUE")
     (DRC_Type_Mismatch "TRUE")
-    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Visible_Power_pins "TRUE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (ANNOTATE_Scope "0")
@@ -72,6 +74,32 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (Title2
+      (FullPartName "Title2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
+      (DeviceIndex "0"))
+    (Title3
+      (FullPartName "Title3.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1_Side
+      (LibraryName "C:\!!!SORT\ORCAD_LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (Title1
+      (FullPartName "Title1.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1
+      (LibraryName "C:\!!!SORT\ORCAD_LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (RC1206JR-0710KL
+      (FullPartName "RC1206JR-0710KL.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (ATmega128-16AU
+      (FullPartName "ATmega128-16AU.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
     (CC1206KKX7R6BB106
       (FullPartName "CC1206KKX7R6BB106.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
@@ -132,10 +160,6 @@
       (LibraryName
          "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (RC1206JR-0710KL
-      (FullPartName "RC1206JR-0710KL.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
     (YC324-JK0710KL
       (FullPartName "YC324-JK0710KL.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
@@ -151,57 +175,67 @@
     (RC1206JR-071K0L
       (FullPartName "RC1206JR-071K0L.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (PVC6A103C01B00
-      (FullPartName "PVC6A103C01B00.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_ARROW
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (ATmega128
-      (FullPartName "ATmega128.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (IDC-20M
-      (FullPartName "IDC-20M.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "19"))
-    (IDC-10M
-      (FullPartName "IDC-10M.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "3")))
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\pi_bsp_v3.olb")
-      (Path "Design Resources" "Library" "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (Path "Design Resources" "Library" "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
       (Path "Outputs")
-      (Select "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" "C:\!!!Sort\design10.dsn" "Design Cache"
+         "TP1_5mm"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 362 0 883"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 883"))
       (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 66 498 66 531")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 168")
+        (Zoom "68"))
+      (Path "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
+      (Package "Title2"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 520 88 553")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "136"))
+      (Path "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
+      (Package "Title3"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 176 627 176 564")
-        (Scroll "799 52")
-        (Zoom "148")
+        (Placement "44 2 3 -1 -1 -4 -23 66 858 66 531")
+        (Scroll "-8 -11")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "C:\!!!SORT\DESIGN10.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 542 110 575")
+        (Scroll "0 0")
+        (Zoom "55")
+        (Occurrence "/"))
+      (Path "C:\!!!SORT\DESIGN10.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.5-Silent\tools\capture\library\pspice"))
