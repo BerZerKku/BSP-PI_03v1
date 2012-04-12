@@ -134,6 +134,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (TMP75AID
+      (FullPartName "TMP75AID.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
     (RC1206JR-0710KL
       (FullPartName "RC1206JR-0710KL.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
@@ -231,10 +235,6 @@
     (YC324-JK07100RL
       (FullPartName "YC324-JK07100RL.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (KX-3H_16MHz
-      (FullPartName "KX-3H_16MHz.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -256,8 +256,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 66 858 66 531")
-        (Scroll "925 70")
-        (Zoom "110")
+        (Scroll "3573 805")
+        (Zoom "296")
         (Occurrence "/"))
       (Path "C:\!!!SORT\DESIGN10.DSN")
       (Schematic "SCHEMATIC1")
