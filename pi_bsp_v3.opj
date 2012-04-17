@@ -241,10 +241,10 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn")
       (Path "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\pi_bsp_v3.olb")
-      (Path "Outputs")
-      (Select "Design Resources" "Library" ".\pi_bsp_v3.olb" "RC1206JR-070RL"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -255,8 +255,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 66 858 66 531")
-        (Scroll "194 818")
-        (Zoom "148")
+        (Scroll "0 0")
+        (Zoom "55")
         (Occurrence "/"))
       (Path "C:\!!!SORT\DESIGN10.DSN")
       (Schematic "SCHEMATIC1")
