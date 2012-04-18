@@ -243,29 +243,18 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\pi_bsp_v3.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library" ".\pi_bsp_v3.olb" "YC324-JK07100RL"))
+      (Select "Design Resources" "C:\!!!Sort\design10.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 250 0 883"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 883"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 980 0 465")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2618 1117")
-        (Zoom "661"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (Package "YC324-JK07100RL"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 858 66 531")
-        (Scroll "146 37")
+        (Placement "44 2 3 -1 -1 -4 -23 66 858 66 531")
+        (Scroll "20 393")
         (Zoom "110")
         (Occurrence "/"))
       (Path "C:\!!!SORT\DESIGN10.DSN")
