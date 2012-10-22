@@ -4,16 +4,6 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\pi_bsp_v3.olb"
-        (Type "Schematic Library"))
-      (File "e:\orcad_sch\lib\socket.olb"
-        (Type "Schematic Library"))
-      (File "E:\ORCAD_SCH\LIB\SAMPLE.OLB"
-        (Type "Schematic Library"))
-      (File "e:\orcad_sch\lib\resistor.olb"
-        (Type "Schematic Library"))
-      (File "E:\ORCAD_SCH\LIB\CAPACITOR.OLB"
-        (Type "Schematic Library"))
-      (File "E:\ORCAD_SCH\LIB\MY_TITLE.OLB"
         (Type "Schematic Library")))
     (NoModify)
     (File "C:\!!!Sort\design10.dsn"
@@ -102,7 +92,12 @@
     (Netlist_TAB "0")
     ("Allegro Netlist Input Board File"
        "E:\ORCAD_sch\RZSK\PI_BSP\v3\pcb\v3.brd")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (File ".\pi_bsp_v3.dsn"
+      (Type "Schematic Design"))
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "E:\ORCAD_SCH\RZSK\PI_BSP\V3\DESIGN1.SWP")
+    (Backannotation_TAB "0"))
   (Folder "Outputs"
     (File "c:\!!!sort\design10.drc"
       (Type "Report"))
@@ -131,11 +126,83 @@
       (DisplayName "pstxprt.dat"))
     (File ".\pcb\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\pcb\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\pcb\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\pcb\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\pcb\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE_DUAL_1
+      (FullPartName "DIODE_DUAL_1-1.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (IDC-10M
+      (FullPartName "IDC-10M.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "9"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_ARRAY_4
+      (FullPartName "RES_ARRAY_4.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (IRLML2803
+      (FullPartName "IRLML2803.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (RES_P
+      (FullPartName "RES_P.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (IDC-20M
+      (FullPartName "IDC-20M.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "19"))
+    (3ESH9-15
+      (FullPartName "3ESH9-15.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "1"))
     (TMP75AID
       (FullPartName "TMP75AID.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (KX-3H_16MHz
+      (FullPartName "KX-3H_16MHz.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (TP1_5mm
+      (FullPartName "TP1_5mm.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName
+         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ATmega128-16AU
+      (FullPartName "ATmega128-16AU.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0"))
     (RC1206JR-0710KL
@@ -164,10 +231,6 @@
     (TitleBl_Page1
       (LibraryName "C:\!!!SORT\ORCAD_LIB\_SYMBOLS.OLB")
       (DeviceIndex "0"))
-    (ATmega128-16AU
-      (FullPartName "ATmega128-16AU.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
     (CC1206KKX7R6BB106
       (FullPartName "CC1206KKX7R6BB106.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
@@ -175,88 +238,29 @@
     (RC1206JR-07100RL
       (FullPartName "RC1206JR-07100RL.Normal")
       (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (CC0805KRX7R9BB104
-      (FullPartName "CC0805KRX7R9BB104.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (CC0805JRNP00BN220
-      (FullPartName "CC0805JRNP00BN220.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (3ESH9-15
-      (FullPartName "3ESH9-15.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (P6SMB18CA
-      (FullPartName "P6SMB18CA.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (ADM3251EARWZ
-      (FullPartName "ADM3251EARWZ.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (IDTQS3257Q
-      (FullPartName "IDTQS3257Q.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (LQH43CN100K03L
-      (FullPartName "LQH43CN100K03L.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (BAT54S
-      (FullPartName "BAT54S-2.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "1"))
-    (BAT54/SOT
-      (FullPartName "BAT54/SOT.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BAT54A/SOT
-      (FullPartName "BAT54A/SOT.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BAT54C/SOT
-      (FullPartName "BAT54C/SOT.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (BAT54S/SOT
-      (FullPartName "BAT54S/SOT.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (YC324-JK0710KL
-      (FullPartName "YC324-JK0710KL.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (YC324-JK07100RL
-      (FullPartName "YC324-JK07100RL.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\!!!Sort\design10.dsn")
-      (Path "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "C:\!!!Sort\design10.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\pi_bsp_v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 883"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 316 0 899"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 1024 44 509")
-        (Scroll "1560 1206")
-        (Zoom "220")
+        (Placement "44 2 3 -1 -1 -4 -23 44 880 44 525")
+        (Scroll "0 796")
+        (Zoom "136")
         (Occurrence "/"))
-      (Path "C:\!!!SORT\DESIGN10.DSN")
+      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Shcheblykin")
