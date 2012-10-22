@@ -22,7 +22,7 @@
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
-    (DRC_SDT_Compatibility "FALSE")
+    (DRC_SDT_Compatibility "TRUE")
     (DRC_Report_Off-grid_Objects "TRUE")
     (DRC_Check_Unconnected_Nets "TRUE")
     (DRC_Check_for_Misleading_TAP "TRUE")
@@ -141,10 +141,30 @@
       (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (DIODE_DUAL_1
-      (FullPartName "DIODE_DUAL_1-1.Normal")
+    (IDTQS3257Q
+      (FullPartName "IDTQS3257Q.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (ADM3251EARWZ
+      (FullPartName "ADM3251EARWZ.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "0"))
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName
+         "C:\CADENCE\SPB_16.5-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IDC-10M
+      (FullPartName "IDC-10M.Normal")
+      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
+      (DeviceIndex "2"))
+    (DIODE_DUAL_1
+      (FullPartName "DIODE_DUAL_1-2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "1"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -153,10 +173,6 @@
       (FullPartName "INDUCTOR.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
-    (IDC-10M
-      (FullPartName "IDC-10M.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "9"))
     (RES_0.25W
       (FullPartName "RES_0.25W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -223,42 +239,28 @@
       (DeviceIndex "0"))
     (TitleBl_Page1_Side
       (LibraryName "C:\!!!SORT\ORCAD_LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (Title1
-      (FullPartName "Title1.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\MY_TITLE.OLB")
-      (DeviceIndex "0"))
-    (TitleBl_Page1
-      (LibraryName "C:\!!!SORT\ORCAD_LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (CC1206KKX7R6BB106
-      (FullPartName "CC1206KKX7R6BB106.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
-      (DeviceIndex "0"))
-    (RC1206JR-07100RL
-      (FullPartName "RC1206JR-07100RL.Normal")
-      (LibraryName "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "E:\ORCAD_sch\RZSK\PI_BSP\v3\pi_bsp_v3.dsn")
+      (Path "Design Resources" "E:\ORCAD_sch\RZSK\PI_BSP\v3\pi_bsp_v3.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\pi_bsp_v3.dsn"))
+      (Select "Design Resources" "E:\ORCAD_sch\RZSK\PI_BSP\v3\pi_bsp_v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 316 0 899"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 899"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 44 880 44 525")
-        (Scroll "0 796")
-        (Zoom "136")
+        (Scroll "-2 -8")
+        (Zoom "38")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
       (Schematic "SCHEMATIC1")
