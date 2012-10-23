@@ -6,8 +6,6 @@
       (File ".\pi_bsp_v3.olb"
         (Type "Schematic Library")))
     (NoModify)
-    (File "C:\!!!Sort\design10.dsn"
-      (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
@@ -22,7 +20,7 @@
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
-    (DRC_SDT_Compatibility "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
     (DRC_Report_Off-grid_Objects "TRUE")
     (DRC_Check_Unconnected_Nets "TRUE")
     (DRC_Check_for_Misleading_TAP "TRUE")
@@ -42,7 +40,7 @@
     (DRC_Identical_References "TRUE")
     (DRC_Type_Mismatch "TRUE")
     (DRC_Visible_Power_pins "TRUE")
-    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Report_Unused_Part_Packages "FALSE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
@@ -259,7 +257,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 44 880 44 525")
-        (Scroll "-2 -8")
+        (Scroll "-2 -11")
         (Zoom "38")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
