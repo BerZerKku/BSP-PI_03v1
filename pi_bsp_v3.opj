@@ -248,7 +248,7 @@
       (Path "Design Resources")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "E:\ORCAD_sch\RZSK\PI_BSP\v3\pi_bsp_v3.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -269,8 +269,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 176 912 176 627")
-        (Scroll "447 554")
-        (Zoom "156")
+        (Scroll "-6 -13")
+        (Zoom "78")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
       (Schematic "SCHEMATIC1")
