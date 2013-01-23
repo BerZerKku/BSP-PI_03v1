@@ -74,7 +74,7 @@
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PCB")
+    ("Allegro Netlist Directory" "pcb")
     ("View Allegro Netlist Files" "FALSE")
     ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File"
@@ -83,7 +83,7 @@
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Configuration File"
-       "C:\Cadence\SPB_16.5-Silent\tools\capture\allegro.cfg")
+       "C:\Cadence\SPB_16.6\tools\capture\allegro.cfg")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Output Warnings" "TRUE")
     ("Allegro Setup Ignore Constraints" "FALSE")
@@ -99,7 +99,8 @@
       (Type "Schematic Design"))
     (GATE_&_PIN_SWAP_Scope "0")
     (GATE_&_PIN_SWAP_File_Name "E:\ORCAD_SCH\RZSK\PI_BSP\V3\DESIGN1.SWP")
-    (Backannotation_TAB "0"))
+    (Backannotation_TAB "0")
+    ("Allegro Netlist Create DCF File" "FALSE"))
   (Folder "Outputs"
     (File "c:\!!!sort\design10.drc"
       (Type "Report"))
@@ -147,6 +148,10 @@
       (FullPartName "RES_0.25W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (USB_A_VERT
       (FullPartName "USB_A_VERT.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -177,10 +182,6 @@
       (DeviceIndex "0"))
     (DIODE_LED
       (FullPartName "DIODE_LED.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (CAP_NP
-      (FullPartName "CAP_NP.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (IDTQS3257Q
@@ -246,21 +247,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\pi_bsp_v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 899"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 150 0 861"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 820 88 565")
-        (Scroll "7 0")
-        (Zoom "57")
+        (Placement "44 0 1 -1 -1 -4 -23 154 644 154 557")
+        (Scroll "55 0")
+        (Zoom "50")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
       (Schematic "SCHEMATIC1")
@@ -268,9 +271,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 176 912 176 627")
-        (Scroll "-6 -13")
-        (Zoom "78")
+        (Placement "44 2 3 -1 -1 -4 -23 176 670 176 583")
+        (Scroll "208 26")
+        (Zoom "112")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
       (Schematic "SCHEMATIC1")
