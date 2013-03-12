@@ -271,8 +271,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 22 772 22 457")
-        (Scroll "-27 0")
+        (Placement "44 0 1 -1 -1 -4 -23 22 772 22 457")
+        (Scroll "0 0")
         (Zoom "54")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
