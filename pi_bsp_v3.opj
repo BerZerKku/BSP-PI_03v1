@@ -243,104 +243,27 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "A - USB")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "B - KEYBOARD")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "C - LCD")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "D - JTAG CONN")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "E - PROG CONN")
-      (Path "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"
-         "F - BSP CONN")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn")
+      (Path "Design Resources" ".\pi_bsp_v3.dsn" "TOP LEVEL")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
       (Path "Outputs")
-      (Select "Design Resources" "e:\orcad_sch\rzsk\pi_bsp\v3\pi_bsp_v3.dsn"))
+      (Select "Design Resources" ".\pi_bsp_v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 868"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 772 22 457")
-        (Scroll "0 0")
-        (Zoom "54")
-        (Occurrence "/"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 220 948 220 663")
-        (Scroll "533 298")
-        (Zoom "172"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 794 66 509")
-        (Scroll "676 378")
-        (Zoom "200")
-        (Occurrence "/F1"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "F - BSP CONN")
-      (Page "F - BSP CONN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 838 110 553")
-        (Scroll "1496 368")
-        (Zoom "400")
-        (Occurrence "/E1"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "E - PROG CONN")
-      (Page "E - PROG CONN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 220 948 220 663")
-        (Scroll "0 0")
-        (Zoom "75")
-        (Occurrence "/A1"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "A - USB")
-      (Page "A - USB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 728 0 443")
-        (Scroll "0 0")
-        (Zoom "86")
-        (Occurrence "/B1"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "B - KEYBOARD")
-      (Page "B- KEYBOARD"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 750 22 465")
-        (Scroll "43 0")
+        (Placement "44 0 1 -1 -1 -4 -23 44 1412 44 494")
+        (Scroll "0 180")
         (Zoom "100")
-        (Occurrence "/D1"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "D - JTAG CONN")
-      (Page "D - JTAG CONN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 772 44 487")
-        (Scroll "1 0")
-        (Zoom "100"))
-      (Path "E:\ORCAD_SCH\RZSK\PI_BSP\V3\PI_BSP_V3.DSN")
-      (Schematic "C - LCD")
-      (Page "C- LCD")))
+        (Occurrence "/"))
+      (Path "D:\!PROJECT\CIRCUIT\ORCAD\BSP-PI\V3\PI_BSP_V3.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.5-Silent\tools\capture\library\fpga\atmel")
