@@ -246,24 +246,13 @@
       (Path "Design Resources" ".\pi_bsp_v3.dsn")
       (Path "Design Resources" ".\pi_bsp_v3.dsn" "TOP LEVEL")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\pi_bsp_v3.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 868"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 1412 44 494")
-        (Scroll "0 180")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\!PROJECT\CIRCUIT\ORCAD\BSP-PI\V3\PI_BSP_V3.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 0 0 0"))
+      (Tab 0)))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.5-Silent\tools\capture\library\fpga\atmel")
