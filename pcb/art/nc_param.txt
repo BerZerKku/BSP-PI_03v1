@@ -13,7 +13,7 @@ SUPPRESS-EQUAL         YES
 TOOL-SELECT            YES
 OPTIMIZE_DRILLING      NO
 ENHANCED_EXCELLON      YES
-TAPE-FILE              E:/ORCAD_sch/RZSK/PI_BSP/v3/pcb/v3.drl
+TAPE-FILE              D:/Project/Circuit/BSP-PI/03v3/pcb/art/v3-bl-1-2.drl
 HEADER                 none
 LEADER                 12
 CODE                   ASCII
