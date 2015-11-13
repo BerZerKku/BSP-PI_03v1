@@ -11,7 +11,7 @@ T06C3.2
 ;CODE  : ASCII 
 ;FILE  : v3-bl-1-2-bl-1-2.drl for  ... layers 1 and 2
 ;DESIGN: 03v3.brd
-;T01 Holesize 1. = 0.500000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 237
+;T01 Holesize 1. = 0.500000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 238
 ;T02 Holesize 2. = 1.000000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 55
 ;T03 Holesize 3. = 1.100000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 4
 ;T04 Holesize 4. = 1.200000 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 2
@@ -238,6 +238,7 @@ X164000Y52000
 X76000Y-50000
 X136000Y-20000
 X28000Y-98000
+X-353000Y437000
 X63900Y511370
 X-336260Y577300
 Y627300
