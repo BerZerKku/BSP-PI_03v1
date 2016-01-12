@@ -144,6 +144,10 @@
       (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (AD5412AREZ
+      (FullPartName "AD5412AREZ.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (TOP
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
       (DeviceIndex "0"))
@@ -233,55 +237,19 @@
     (TVS_ARRAY_NUP2201
       (FullPartName "TVS_ARRAY_NUP2201.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (FERRITE
-      (FullPartName "FERRITE.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\pi_bsp_v3.dsn")
       (Path "Design Resources" ".\pi_bsp_v3.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn" "A - USB")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn" "B - KEYBOARD")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\pi_bsp_v3.dsn" "A - USB" "A - USB"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 66 1603 81 576")
-        (Scroll "0 132")
-        (Zoom "116")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 88 1629 108 607")
-        (Scroll "-272 0")
-        (Zoom "82")
-        (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.DSN")
-      (Schematic "A - USB")
-      (Page "A - USB"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 154 1595 189 688")
-        (Scroll "-216 0")
-        (Zoom "100"))
-      (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.DSN")
-      (Schematic "B - KEYBOARD")
-      (Page "B- KEYBOARD"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -292,7 +260,17 @@
         (Scroll "0 39")
         (Zoom "89"))
       (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.OLB")
-      (Package "ATmega128-16AU")))
+      (Package "ATmega128-16AU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 66 1603 81 576")
+        (Scroll "195 662")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\SPB_16.5-Silent\tools\capture\library\fpga\atmel")
