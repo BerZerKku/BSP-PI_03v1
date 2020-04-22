@@ -241,24 +241,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn")
-      (Path "Design Resources" ".\pi_bsp_v3.dsn" "TOP LEVEL")
+      (Path "Design Resources"
+         "e:\project\circuit\avant\bsp-pi\03v3\pi_bsp_v3.dsn")
+      (Path "Design Resources"
+         "e:\project\circuit\avant\bsp-pi\03v3\pi_bsp_v3.dsn" "TOP LEVEL")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\pi_bsp_v3.dsn" "TOP LEVEL" "TOP LEVEL"))
+      (Select "Design Resources"
+         "e:\project\circuit\avant\bsp-pi\03v3\pi_bsp_v3.dsn" "TOP LEVEL"
+         "TOP LEVEL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 66 1603 81 576")
-        (Scroll "679 53")
-        (Zoom "138")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1450 78 569")
+        (Scroll "0 78")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BSP-PI\03V3\PI_BSP_V3.DSN")
+      (Path "E:\PROJECT\CIRCUIT\AVANT\BSP-PI\03V3\PI_BSP_V3.DSN")
       (Schematic "TOP LEVEL")
       (Page "TOP LEVEL")))
   (MPSSessionName "Shcheblykin")
